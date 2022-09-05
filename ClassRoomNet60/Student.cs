@@ -20,13 +20,12 @@ namespace ClassRoomNet60
 
         }
 
-        public String Name { get; set; }
-        public int BirthMonth { get; set; }
-        public int BirthDay { get; set; }
-
+        public String Name { get { return _name; } set { _name = value; } }
+        public int BirthMonth { get { return _birthMonth; } set { _birthMonth = value; } }
+        public int BirthDay { get { return _birthDay; } set { _birthDay = value; } }
         public override string ToString()
         {
-            return base.ToString();
+            return $"{nameof(Name)}:{Name},{nameof(BirthDay)}:{BirthDay},{nameof(BirthMonth)}:{BirthMonth}";
         }
     }
 }
