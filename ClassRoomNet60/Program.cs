@@ -7,7 +7,7 @@ internal class Program
     {
      
         Student s1 = new Student( "Kasper",2,7 );
-        Student s2 = new Student("Kirstine", 13, 05);
+        Student s2 = new Student("Kirstine", 1, 05);
         
         ClassRoom classRoom = new ClassRoom();
         classRoom.ClassName = "3B";
@@ -21,8 +21,8 @@ internal class Program
            Console.WriteLine(s);
        }
 
+        Console.WriteLine(s1.Season(s1));
 
-
-
+        classRoom.countBirthdaysPerSeason(classRoom.ClassList);
     }
 }
