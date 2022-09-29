@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Student2</name>
+    </assembly>
+    <members>
+        <member name="P:Student2.Class1.Adresse">
+            <summary>
+            Klasse som beskriver en studerende via navn og adresse.
+            </summary>
+        </member>
+        <member name="M:Student2.Class1.ReturnNavnOgAdresse">
+            <summary>
+            Metode som bruger navn og adresse til at returenere en string bestående af de to variabler.
+            </summary>
+            <param name="adresse"></param>
+            <param name="navn"></param>
+            <returns>"Den studerendes navn er:" + navn + ". Den studerendes adresse er "+ adresse + "."</returns>
+        </member>
+    </members>
+</doc>
